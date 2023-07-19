@@ -1,0 +1,28 @@
+* {
+    margin: 0; /* tira o espaço em volta da caixa header */
+}
+
+header {
+    padding: 4rem; /* amplia o tamanho interno da caixa */
+    background-color: lightgray;
+}
+nav {
+    display: flex; /* aplica a todos os itens da caixa nav a disposição inline, cada item ao lado do outro */
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0; /* tira o espaço em volta */
+    border: 1px solid red;
+}
+
+.atalhos {
+    display: flex; /* cada item de atalhos estará na mesma linha um ao lado do outro */
+    gap: 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
