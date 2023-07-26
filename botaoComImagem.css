@@ -1,0 +1,40 @@
+* {
+    background-color: gray;
+}
+/* disposição dos botões */
+.botoes {
+    display: flex;
+    gap: .4rem;
+}
+/* todos os elementos do botão comprar */
+.comprar {
+    display: flex;
+    background-color: white;
+}
+
+/* elementos individualmente */
+button.comprar {
+    gap: .4rem;
+    font-size: large;
+}
+.comprar img {
+    height: 20px;
+    width: 20px;
+}
+
+/* todos os elementos do botão assistir */
+.assistir {
+    display: flex;
+    background-color: white;
+}
+
+/* elementos individualmente */
+button.assistir {
+    gap: .4rem;
+    font-size: large;
+}
+
+.assistir img {
+    height: 20px;
+    width: 20px;
+}
