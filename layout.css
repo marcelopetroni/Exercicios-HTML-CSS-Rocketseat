@@ -1,0 +1,19 @@
+* {
+    background-color: lightgray;
+}
+.container {
+    display: flex; /* para deixar conteúdo como inline */
+    gap: 1rem;
+}
+main {
+    background-color: cadetblue;
+    grid-area: main;
+    height: 95vh;
+    flex: 1; 
+}
+aside {
+    background-color: blue;
+    grid-area: aside;
+    flex-basis: 25%;
+    height: 95vh; /* determinei por viewport, mas pode usar height e width também */
+}

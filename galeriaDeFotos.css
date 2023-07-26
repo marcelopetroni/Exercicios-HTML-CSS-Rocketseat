@@ -1,0 +1,26 @@
+/* configurações do todo */
+* {
+    background-color: lightgray;
+}
+/* configurações de todo o corpo/esqueleto */
+body {
+    display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */
+    /* você também pode usar o shorthand "place-items: center" para alinhar tanto horizontalmente como verticalmente */
+}
+
+/* configurações do grupo de imagens e sua disposição */
+.imagens {
+    gap: .8rem;
+    display: grid; /* Usamos grid para organizar em 3x3 */
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+}
+
+/* configurações de cada imagem individualmente, como seu temanho, padding e afins */
+.imagens img {
+    height: 200px;  
+    width: 200px;
+}
+
+/* se não quiser usar grid: use flex, mas aplique flex-wrap: para quebra de linha e justify-content: center para alinhar
